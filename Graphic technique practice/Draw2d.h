@@ -10,5 +10,6 @@ public:
 	static void drawLine(Point2d a, Point2d b, GLFWwindow& window);
 	static void drawCircle(Point2d o, int radius, GLFWwindow& window);
 	static void drawEllipse(Point2d o, int a, int b, GLFWwindow& window);
+	static void trimSegment(Point2d llpoint, Point2d rupoint, Point2d a, Point2d b, GLFWwindow& window);
 };
 
